@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800&family=Mitr:wght@500&family=Poppins:wght@200;300;400;500;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+body {
+    margin: 0;
+    background-color: 0(0, 0, 0.6, 14);
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    background-color: rgb(39, 38, 38);
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 3rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.logo img {
+    width: 5rem;
+    margin: 0px 2rem;
+}
+.popup {
+    background: rgba(0, 0, 0, 0.226);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup-content{
+    height: 290px;
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+form input{
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    color: black;
+}
+form button{
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(255, 0, 0);
+    border: 0;
+    border-radius: 10px;
+}
+form button a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+form button:hover{
+    background-color: rgb(167, 167, 167);
+    transition: 0.5s;
+    color: black;
+}
+form div a {
+    display: block;
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+    margin: 10px 0;
+}
